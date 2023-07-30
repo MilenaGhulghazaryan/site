@@ -1,0 +1,50 @@
+.sec1 {
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+    height: 160px;
+}
+
+.sec2 {
+    margin: auto;
+    display: flex;
+    width: 36%;
+    gap: 8px;
+}
+
+.sec1 h1 {
+    color: white;
+    font-size: 4vw;
+}
+
+.sec1 p {
+    color: white;
+    width: 47%;
+    margin: auto;
+}
+
+button {
+    color: white;
+    border: none;
+    width: 160px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #f5af00;
+    color: #ffffff;
+    border: 2px solid #f5af00;
+}
+
+input {
+    width: 324px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    opacity: 58%;
+    padding: 20px;
+}
+
+input::placeholder {
+    color: #ffffff;
+}

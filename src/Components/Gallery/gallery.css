@@ -1,0 +1,31 @@
+.galleryText {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    margin: auto;
+    align-items: center
+}
+
+.galleryText p {
+    text-align: center;
+    height: 140px;
+}
+
+.img1 img, .img2 img {
+    width: 30%;
+    height: 290px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img1, .img2 {
+    display: flex;
+    gap: -6px;
+    width: 95%;
+    justify-content: space-evenly;
+    margin: auto;
+}

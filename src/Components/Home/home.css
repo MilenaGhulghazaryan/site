@@ -1,0 +1,18 @@
+.background {
+  text-align: center;
+  width: 100%;
+  height: 657px;
+  background-image: url('/public/images/background2.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.imgColor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 657px;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.6);
+}
